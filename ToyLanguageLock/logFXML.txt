@@ -1,0 +1,892 @@
+Program State(id):
+	id=0
+ExeStack:
+	[v=20
+for(v=0; v<3; v=v+1){forkStmt{Print(v)
+v=v+1}}
+Print(v*10)]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[for(v=0; v<3; v=v+1){forkStmt{Print(v)
+v=v+1}}
+Print(v*10), v=20]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[for(v=0; v<3; v=v+1){forkStmt{Print(v)
+v=v+1}}
+Print(v*10), v=20]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[for(v=0; v<3; v=v+1){forkStmt{Print(v)
+v=v+1}}
+Print(v*10)]
+SymTable:
+	{v=20}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[for(v=0; v<3; v=v+1){forkStmt{Print(v)
+v=v+1}}
+Print(v*10)]
+SymTable:
+	{v=20}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), for(v=0; v<3; v=v+1){forkStmt{Print(v)
+v=v+1}}]
+SymTable:
+	{v=20}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), for(v=0; v<3; v=v+1){forkStmt{Print(v)
+v=v+1}}]
+SymTable:
+	{v=20}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), v=0
+WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}]
+SymTable:
+	{v=20}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), v=0
+WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}]
+SymTable:
+	{v=20}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, v=0]
+SymTable:
+	{v=20}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, v=0]
+SymTable:
+	{v=20}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}]
+SymTable:
+	{v=0}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}]
+SymTable:
+	{v=0}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, forkStmt{Print(v)
+v=v+1}
+v=v+1]
+SymTable:
+	{v=0}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, forkStmt{Print(v)
+v=v+1}
+v=v+1]
+SymTable:
+	{v=0}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, v=v+1, forkStmt{Print(v)
+v=v+1}]
+SymTable:
+	{v=0}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, v=v+1, forkStmt{Print(v)
+v=v+1}]
+SymTable:
+	{v=0}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, v=v+1]
+SymTable:
+	{v=0}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=1
+ExeStack:
+	[Print(v)
+v=v+1]
+SymTable:
+	{v=0}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, v=v+1]
+SymTable:
+	{v=0}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=1
+ExeStack:
+	[Print(v)
+v=v+1]
+SymTable:
+	{v=0}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=1
+ExeStack:
+	[v=v+1, Print(v)]
+SymTable:
+	{v=0}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=1
+ExeStack:
+	[v=v+1, Print(v)]
+SymTable:
+	{v=0}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, forkStmt{Print(v)
+v=v+1}
+v=v+1]
+SymTable:
+	{v=1}
+Out:
+	[0]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=1
+ExeStack:
+	[v=v+1]
+SymTable:
+	{v=0}
+Out:
+	[0]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, forkStmt{Print(v)
+v=v+1}
+v=v+1]
+SymTable:
+	{v=1}
+Out:
+	[0]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=1
+ExeStack:
+	[v=v+1]
+SymTable:
+	{v=0}
+Out:
+	[0]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, v=v+1, forkStmt{Print(v)
+v=v+1}]
+SymTable:
+	{v=1}
+Out:
+	[0]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=1
+ExeStack:
+	[]
+SymTable:
+	{v=1}
+Out:
+	[0]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, v=v+1, forkStmt{Print(v)
+v=v+1}]
+SymTable:
+	{v=1}
+Out:
+	[0]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, v=v+1]
+SymTable:
+	{v=1}
+Out:
+	[0]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=2
+ExeStack:
+	[Print(v)
+v=v+1]
+SymTable:
+	{v=1}
+Out:
+	[0]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, v=v+1]
+SymTable:
+	{v=1}
+Out:
+	[0]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=2
+ExeStack:
+	[Print(v)
+v=v+1]
+SymTable:
+	{v=1}
+Out:
+	[0]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}]
+SymTable:
+	{v=2}
+Out:
+	[0]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=2
+ExeStack:
+	[v=v+1, Print(v)]
+SymTable:
+	{v=1}
+Out:
+	[0]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}]
+SymTable:
+	{v=2}
+Out:
+	[0]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=2
+ExeStack:
+	[v=v+1, Print(v)]
+SymTable:
+	{v=1}
+Out:
+	[0]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, forkStmt{Print(v)
+v=v+1}
+v=v+1]
+SymTable:
+	{v=2}
+Out:
+	[0, 1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=2
+ExeStack:
+	[v=v+1]
+SymTable:
+	{v=1}
+Out:
+	[0, 1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, forkStmt{Print(v)
+v=v+1}
+v=v+1]
+SymTable:
+	{v=2}
+Out:
+	[0, 1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=2
+ExeStack:
+	[v=v+1]
+SymTable:
+	{v=1}
+Out:
+	[0, 1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, v=v+1, forkStmt{Print(v)
+v=v+1}]
+SymTable:
+	{v=2}
+Out:
+	[0, 1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=2
+ExeStack:
+	[]
+SymTable:
+	{v=2}
+Out:
+	[0, 1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, v=v+1, forkStmt{Print(v)
+v=v+1}]
+SymTable:
+	{v=2}
+Out:
+	[0, 1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, v=v+1]
+SymTable:
+	{v=2}
+Out:
+	[0, 1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=3
+ExeStack:
+	[Print(v)
+v=v+1]
+SymTable:
+	{v=2}
+Out:
+	[0, 1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}, v=v+1]
+SymTable:
+	{v=2}
+Out:
+	[0, 1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=3
+ExeStack:
+	[Print(v)
+v=v+1]
+SymTable:
+	{v=2}
+Out:
+	[0, 1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}]
+SymTable:
+	{v=3}
+Out:
+	[0, 1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=3
+ExeStack:
+	[v=v+1, Print(v)]
+SymTable:
+	{v=2}
+Out:
+	[0, 1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10), WHILE((v<3)){ forkStmt{Print(v)
+v=v+1}
+v=v+1}]
+SymTable:
+	{v=3}
+Out:
+	[0, 1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=3
+ExeStack:
+	[v=v+1, Print(v)]
+SymTable:
+	{v=2}
+Out:
+	[0, 1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10)]
+SymTable:
+	{v=3}
+Out:
+	[0, 1, 2]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=3
+ExeStack:
+	[v=v+1]
+SymTable:
+	{v=2}
+Out:
+	[0, 1, 2]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v*10)]
+SymTable:
+	{v=3}
+Out:
+	[0, 1, 2]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=3
+ExeStack:
+	[v=v+1]
+SymTable:
+	{v=2}
+Out:
+	[0, 1, 2]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[]
+SymTable:
+	{v=3}
+Out:
+	[0, 1, 2, 30]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=3
+ExeStack:
+	[]
+SymTable:
+	{v=3}
+Out:
+	[0, 1, 2, 30]
+File Table:
+	
+Heap:
+	{}
+

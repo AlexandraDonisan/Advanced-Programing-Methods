@@ -1,0 +1,54 @@
+ExeStack:
+	[IF a THEN v=2 ELSE v=3; Print(v), a=2-2]
+SymTable:
+	{}
+Out:
+	[]
+Heap:
+	{}
+
+ExeStack:
+	[IF a THEN v=2 ELSE v=3; Print(v)]
+SymTable:
+	{a=0}
+Out:
+	[]
+Heap:
+	{}
+
+ExeStack:
+	[Print(v), IF a THEN v=2 ELSE v=3]
+SymTable:
+	{a=0}
+Out:
+	[]
+Heap:
+	{}
+
+ExeStack:
+	[Print(v), v=3]
+SymTable:
+	{a=0}
+Out:
+	[]
+Heap:
+	{}
+
+ExeStack:
+	[Print(v)]
+SymTable:
+	{a=0, v=3}
+Out:
+	[]
+Heap:
+	{}
+
+ExeStack:
+	[]
+SymTable:
+	{a=0, v=3}
+Out:
+	[3]
+Heap:
+	{}
+

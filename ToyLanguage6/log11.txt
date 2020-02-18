@@ -1,0 +1,9 @@
+ExeStack:
+	[]
+SymTable:
+	{}
+Out:
+	[0]
+Heap:
+	{}
+

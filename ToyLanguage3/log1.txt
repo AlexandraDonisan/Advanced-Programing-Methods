@@ -1,0 +1,21 @@
+ExeStack:
+	[Print(v), v=2]
+SymTable:
+	{}
+Out:
+	[]
+
+ExeStack:
+	[Print(v)]
+SymTable:
+	{v=2}
+Out:
+	[]
+
+ExeStack:
+	[]
+SymTable:
+	{v=2}
+Out:
+	[2]
+

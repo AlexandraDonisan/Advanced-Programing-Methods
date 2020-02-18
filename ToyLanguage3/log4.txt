@@ -1,0 +1,108 @@
+ExeStack:
+	[ReadFile(var_f, "var_c"); Print(var_c); IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f), OpenFile(var_f,"test.txt")]
+SymTable:
+	{}
+Out:
+	[]
+FileTable:
+	
+
+ExeStack:
+	[ReadFile(var_f, "var_c"); Print(var_c); IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f)]
+SymTable:
+	{var_f=1}
+Out:
+	[]
+FileTable:
+	1:test.txt
+
+ExeStack:
+	[Print(var_c); IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f), ReadFile(var_f, "var_c")]
+SymTable:
+	{var_f=1}
+Out:
+	[]
+FileTable:
+	1:test.txt
+
+ExeStack:
+	[Print(var_c); IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f)]
+SymTable:
+	{var_f=1, var_c=15}
+Out:
+	[]
+FileTable:
+	1:test.txt
+
+ExeStack:
+	[IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f), Print(var_c)]
+SymTable:
+	{var_f=1, var_c=15}
+Out:
+	[]
+FileTable:
+	1:test.txt
+
+ExeStack:
+	[IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f)]
+SymTable:
+	{var_f=1, var_c=15}
+Out:
+	[15]
+FileTable:
+	1:test.txt
+
+ExeStack:
+	[closeRFile(var_f), IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0)]
+SymTable:
+	{var_f=1, var_c=15}
+Out:
+	[15]
+FileTable:
+	1:test.txt
+
+ExeStack:
+	[closeRFile(var_f), ReadFile(var_f, "var_c"); Print(var_c)]
+SymTable:
+	{var_f=1, var_c=15}
+Out:
+	[15]
+FileTable:
+	1:test.txt
+
+ExeStack:
+	[closeRFile(var_f), Print(var_c), ReadFile(var_f, "var_c")]
+SymTable:
+	{var_f=1, var_c=15}
+Out:
+	[15]
+FileTable:
+	1:test.txt
+
+ExeStack:
+	[closeRFile(var_f), Print(var_c)]
+SymTable:
+	{var_f=1, var_c=50}
+Out:
+	[15]
+FileTable:
+	1:test.txt
+
+ExeStack:
+	[closeRFile(var_f)]
+SymTable:
+	{var_f=1, var_c=50}
+Out:
+	[15, 50]
+FileTable:
+	1:test.txt
+
+ExeStack:
+	[]
+SymTable:
+	{var_f=1, var_c=50}
+Out:
+	[15, 50]
+FileTable:
+	
+

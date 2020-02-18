@@ -1,0 +1,11 @@
+ExeStack:
+	[]
+SymTable:
+	{var_f=1}
+Out:
+	[]
+File Table:
+	1:test.txt
+Heap:
+	{}
+

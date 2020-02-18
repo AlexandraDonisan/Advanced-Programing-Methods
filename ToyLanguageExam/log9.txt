@@ -1,0 +1,338 @@
+Program State(id):
+	id=0
+ExeStack:
+	[v=10; new(v,20); new(a,22); wH(a,30); Print(a); Print(rH(a)); a=0]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v,20); new(a,22); wH(a,30); Print(a); Print(rH(a)); a=0, v=10]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v,20); new(a,22); wH(a,30); Print(a); Print(rH(a)); a=0, v=10]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v,20); new(a,22); wH(a,30); Print(a); Print(rH(a)); a=0]
+SymTable:
+	{v=10}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v,20); new(a,22); wH(a,30); Print(a); Print(rH(a)); a=0]
+SymTable:
+	{v=10}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(a,22); wH(a,30); Print(a); Print(rH(a)); a=0, new(v,20)]
+SymTable:
+	{v=10}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(a,22); wH(a,30); Print(a); Print(rH(a)); a=0, new(v,20)]
+SymTable:
+	{v=10}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(a,22); wH(a,30); Print(a); Print(rH(a)); a=0]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=20}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(a,22); wH(a,30); Print(a); Print(rH(a)); a=0]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=20}
+
+Program State(id):
+	id=0
+ExeStack:
+	[wH(a,30); Print(a); Print(rH(a)); a=0, new(a,22)]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=20}
+
+Program State(id):
+	id=0
+ExeStack:
+	[wH(a,30); Print(a); Print(rH(a)); a=0, new(a,22)]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=20}
+
+Program State(id):
+	id=0
+ExeStack:
+	[wH(a,30); Print(a); Print(rH(a)); a=0]
+SymTable:
+	{a=2, v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=20, 2=22}
+
+Program State(id):
+	id=0
+ExeStack:
+	[wH(a,30); Print(a); Print(rH(a)); a=0]
+SymTable:
+	{a=2, v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=20, 2=22}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(a); Print(rH(a)); a=0, wH(a,30)]
+SymTable:
+	{a=2, v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=20, 2=22}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(a); Print(rH(a)); a=0, wH(a,30)]
+SymTable:
+	{a=2, v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=20, 2=22}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(a); Print(rH(a)); a=0]
+SymTable:
+	{a=2, v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=20, 2=30}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(a); Print(rH(a)); a=0]
+SymTable:
+	{a=2, v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=20, 2=30}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(a)); a=0, Print(a)]
+SymTable:
+	{a=2, v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=20, 2=30}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(a)); a=0, Print(a)]
+SymTable:
+	{a=2, v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=20, 2=30}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(a)); a=0]
+SymTable:
+	{a=2, v=1}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=20, 2=30}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(a)); a=0]
+SymTable:
+	{a=2, v=1}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=20, 2=30}
+
+Program State(id):
+	id=0
+ExeStack:
+	[a=0, Print(rH(a))]
+SymTable:
+	{a=2, v=1}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=20, 2=30}
+
+Program State(id):
+	id=0
+ExeStack:
+	[a=0, Print(rH(a))]
+SymTable:
+	{a=2, v=1}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=20, 2=30}
+
+Program State(id):
+	id=0
+ExeStack:
+	[a=0]
+SymTable:
+	{a=2, v=1}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=20, 2=30}
+
+Program State(id):
+	id=0
+ExeStack:
+	[a=0]
+SymTable:
+	{a=2, v=1}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=20, 2=30}
+
+Program State(id):
+	id=0
+ExeStack:
+	[]
+SymTable:
+	{a=0, v=1}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=20}
+

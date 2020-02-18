@@ -1,0 +1,63 @@
+ExeStack:
+	[new(v,20); new(a,22); Print(v), v=10]
+SymTable:
+	{}
+Out:
+	[]
+Heap:
+	{}
+
+ExeStack:
+	[new(v,20); new(a,22); Print(v)]
+SymTable:
+	{v=10}
+Out:
+	[]
+Heap:
+	{}
+
+ExeStack:
+	[new(a,22); Print(v), new(v,20)]
+SymTable:
+	{v=10}
+Out:
+	[]
+Heap:
+	{}
+
+ExeStack:
+	[new(a,22); Print(v)]
+SymTable:
+	{v=1}
+Out:
+	[]
+Heap:
+	{1=20}
+
+ExeStack:
+	[Print(v), new(a,22)]
+SymTable:
+	{v=1}
+Out:
+	[]
+Heap:
+	{1=20}
+
+ExeStack:
+	[Print(v)]
+SymTable:
+	{a=2, v=1}
+Out:
+	[]
+Heap:
+	{1=20, 2=22}
+
+ExeStack:
+	[]
+SymTable:
+	{a=2, v=1}
+Out:
+	[1]
+Heap:
+	{1=20, 2=22}
+

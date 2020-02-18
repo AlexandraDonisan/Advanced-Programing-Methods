@@ -1,0 +1,325 @@
+Program State(id):
+	id=0
+ExeStack:
+	[OpenFile(var_f,"test.txt"); ReadFile(var_f, "var_c"); Print(var_c); IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f)]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[ReadFile(var_f, "var_c"); Print(var_c); IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f), OpenFile(var_f,"test.txt")]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[ReadFile(var_f, "var_c"); Print(var_c); IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f), OpenFile(var_f,"test.txt")]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[ReadFile(var_f, "var_c"); Print(var_c); IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f)]
+SymTable:
+	{var_f=1}
+Out:
+	[]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[ReadFile(var_f, "var_c"); Print(var_c); IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f)]
+SymTable:
+	{var_f=1}
+Out:
+	[]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(var_c); IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f), ReadFile(var_f, "var_c")]
+SymTable:
+	{var_f=1}
+Out:
+	[]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(var_c); IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f), ReadFile(var_f, "var_c")]
+SymTable:
+	{var_f=1}
+Out:
+	[]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(var_c); IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f)]
+SymTable:
+	{var_f=1, var_c=15}
+Out:
+	[]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(var_c); IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f)]
+SymTable:
+	{var_f=1, var_c=15}
+Out:
+	[]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f), Print(var_c)]
+SymTable:
+	{var_f=1, var_c=15}
+Out:
+	[]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f), Print(var_c)]
+SymTable:
+	{var_f=1, var_c=15}
+Out:
+	[]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f)]
+SymTable:
+	{var_f=1, var_c=15}
+Out:
+	[15]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f)]
+SymTable:
+	{var_f=1, var_c=15}
+Out:
+	[15]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[closeRFile(var_f), IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0)]
+SymTable:
+	{var_f=1, var_c=15}
+Out:
+	[15]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[closeRFile(var_f), IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0)]
+SymTable:
+	{var_f=1, var_c=15}
+Out:
+	[15]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[closeRFile(var_f), ReadFile(var_f, "var_c"); Print(var_c)]
+SymTable:
+	{var_f=1, var_c=15}
+Out:
+	[15]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[closeRFile(var_f), ReadFile(var_f, "var_c"); Print(var_c)]
+SymTable:
+	{var_f=1, var_c=15}
+Out:
+	[15]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[closeRFile(var_f), Print(var_c), ReadFile(var_f, "var_c")]
+SymTable:
+	{var_f=1, var_c=15}
+Out:
+	[15]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[closeRFile(var_f), Print(var_c), ReadFile(var_f, "var_c")]
+SymTable:
+	{var_f=1, var_c=15}
+Out:
+	[15]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[closeRFile(var_f), Print(var_c)]
+SymTable:
+	{var_f=1, var_c=50}
+Out:
+	[15]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[closeRFile(var_f), Print(var_c)]
+SymTable:
+	{var_f=1, var_c=50}
+Out:
+	[15]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[closeRFile(var_f)]
+SymTable:
+	{var_f=1, var_c=50}
+Out:
+	[15, 50]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[closeRFile(var_f)]
+SymTable:
+	{var_f=1, var_c=50}
+Out:
+	[15, 50]
+File Table:
+	1:test.txt
+Heap:
+	{}
+
+Program State(id):
+	id=1
+ExeStack:
+	[]
+SymTable:
+	{var_f=1, var_c=50}
+Out:
+	[15, 50]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=1
+ExeStack:
+	[]
+SymTable:
+	{var_f=1, var_c=50}
+Out:
+	[15, 50]
+File Table:
+	
+Heap:
+	{}
+

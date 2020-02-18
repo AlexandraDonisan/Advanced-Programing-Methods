@@ -1,0 +1,35 @@
+ExeStack:
+	[Print(ArithExp{op=0, e1=a, e2=1}); snd=b, Print(ArithExp{op=0, e1=2, e2=ArithExp{op=3, e1=3, e2=5}})]
+SymTable:
+	{}
+Out:
+	[]
+
+ExeStack:
+	[Print(ArithExp{op=0, e1=a, e2=1}); snd=b]
+SymTable:
+	{a=17}
+Out:
+	[]
+
+ExeStack:
+	[b, Print(ArithExp{op=0, e1=a, e2=1})]
+SymTable:
+	{a=17}
+Out:
+	[]
+
+ExeStack:
+	[b]
+SymTable:
+	{a=17, b=18}
+Out:
+	[]
+
+ExeStack:
+	[]
+SymTable:
+	{a=17, b=18}
+Out:
+	[18]
+

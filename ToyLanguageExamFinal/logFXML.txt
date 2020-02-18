@@ -1,0 +1,3776 @@
+Program State(id):
+	id=0
+ExeStack:
+	[a=1
+b=2
+c=5
+switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300)]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), a=1
+b=2
+c=5]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), a=1
+b=2
+c=5]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), b=2
+c=5, a=1]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), b=2
+c=5, a=1]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), b=2
+c=5]
+SymTable:
+	{a=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), b=2
+c=5]
+SymTable:
+	{a=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), c=5, b=2]
+SymTable:
+	{a=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), c=5, b=2]
+SymTable:
+	{a=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), c=5]
+SymTable:
+	{a=1, b=2}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), c=5]
+SymTable:
+	{a=1, b=2}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300), switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300), switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300), Print(a)
+Print(b)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300), Print(a)
+Print(b)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300), Print(b), Print(a)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300), Print(b), Print(a)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300), Print(b)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300), Print(b)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[1, 2]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[1, 2]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[1, 2, 300]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[a=1
+b=2
+c=5
+switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300)]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), a=1
+b=2
+c=5]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), a=1
+b=2
+c=5]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), b=2
+c=5, a=1]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), b=2
+c=5, a=1]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), b=2
+c=5]
+SymTable:
+	{a=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), b=2
+c=5]
+SymTable:
+	{a=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), c=5, b=2]
+SymTable:
+	{a=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), c=5, b=2]
+SymTable:
+	{a=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), c=5]
+SymTable:
+	{a=1, b=2}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300), c=5]
+SymTable:
+	{a=1, b=2}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))
+Print(300)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300), switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300), switch(a*10) (case b*c: Print(a)
+Print(b)) (case 10: Print(100)
+Print(200)) (default: Print(300))]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300), Print(a)
+Print(b)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300), Print(a)
+Print(b)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300), Print(b), Print(a)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300), Print(b), Print(a)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300), Print(b)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300), Print(b)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[1]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[1, 2]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(300)]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[1, 2]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[]
+SymTable:
+	{a=1, b=2, c=5}
+Out:
+	[1, 2, 300]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[v=1
+forkStmt{v=2}
+forkStmt{v=3}]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{v=2}
+forkStmt{v=3}, v=1]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{v=2}
+forkStmt{v=3}, v=1]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{v=2}
+forkStmt{v=3}]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{v=2}
+forkStmt{v=3}]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{v=3}, forkStmt{v=2}]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{v=3}, forkStmt{v=2}]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{v=3}]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=1
+ExeStack:
+	[v=2]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{v=3}]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=1
+ExeStack:
+	[v=2]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=1
+ExeStack:
+	[]
+SymTable:
+	{v=2}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=2
+ExeStack:
+	[v=3]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=2
+ExeStack:
+	[v=3]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=2
+ExeStack:
+	[]
+SymTable:
+	{v=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[v=1
+forkStmt{v=2}
+forkStmt{v=3}]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{v=2}
+forkStmt{v=3}, v=1]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{v=2}
+forkStmt{v=3}, v=1]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{v=2}
+forkStmt{v=3}]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{v=2}
+forkStmt{v=3}]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{v=3}, forkStmt{v=2}]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{v=3}, forkStmt{v=2}]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{v=3}]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=1
+ExeStack:
+	[v=2]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{v=3}]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=1
+ExeStack:
+	[v=2]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=1
+ExeStack:
+	[]
+SymTable:
+	{v=2}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=2
+ExeStack:
+	[v=3]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=2
+ExeStack:
+	[v=3]
+SymTable:
+	{v=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=2
+ExeStack:
+	[]
+SymTable:
+	{v=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v1,2)
+new(v2,3)
+new(v3,4)
+NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v2,3)
+new(v3,4)
+NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), new(v1,2)]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v2,3)
+new(v3,4)
+NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), new(v1,2)]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v2,3)
+new(v3,4)
+NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{v1=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v2,3)
+new(v3,4)
+NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{v1=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v3,4)
+NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), new(v2,3)]
+SymTable:
+	{v1=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v3,4)
+NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), new(v2,3)]
+SymTable:
+	{v1=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v3,4)
+NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{v1=1, v2=2}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v3,4)
+NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{v1=1, v2=2}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3}
+
+Program State(id):
+	id=0
+ExeStack:
+	[NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), new(v3,4)]
+SymTable:
+	{v1=1, v2=2}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3}
+
+Program State(id):
+	id=0
+ExeStack:
+	[NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), new(v3,4)]
+SymTable:
+	{v1=1, v2=2}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3}
+
+Program State(id):
+	id=0
+ExeStack:
+	[NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), NewBarrier(cnt, rH(v2))]
+SymTable:
+	{v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), NewBarrier(cnt, rH(v2))]
+SymTable:
+	{v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[Await(cnt)
+wH(v1,rH(v1)*10)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[Await(cnt)
+wH(v1,rH(v1)*10)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), Print(rH(v1))]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), Print(rH(v1))]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[Await(cnt)
+wH(v2,rH(v2)*10)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[Await(cnt)
+wH(v2,rH(v2)*10)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), wH(v2,rH(v2)*10)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), wH(v2,rH(v2)*10)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Await(cnt)
+Print(rH(v3)), Print(rH(v2))]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Await(cnt)
+Print(rH(v3)), Print(rH(v2))]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v3)), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v3)), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v3)), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v3)), Await(cnt)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10)]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v3))]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=20, 2=300, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=20, 2=300, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=20, 2=300, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v3))]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=20, 2=300, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[]
+SymTable:
+	{cnt=0, v1=1, v2=2, v3=3}
+Out:
+	[2, 30, 4]
+File Table:
+	
+Heap:
+	{1=20, 2=300, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v1,2)
+new(v2,3)
+new(v3,4)
+NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v2,3)
+new(v3,4)
+NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), new(v1,2)]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v2,3)
+new(v3,4)
+NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), new(v1,2)]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v2,3)
+new(v3,4)
+NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{v1=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v2,3)
+new(v3,4)
+NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{v1=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v3,4)
+NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), new(v2,3)]
+SymTable:
+	{v1=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v3,4)
+NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), new(v2,3)]
+SymTable:
+	{v1=1}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v3,4)
+NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{v1=1, v2=2}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3}
+
+Program State(id):
+	id=0
+ExeStack:
+	[new(v3,4)
+NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{v1=1, v2=2}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3}
+
+Program State(id):
+	id=0
+ExeStack:
+	[NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), new(v3,4)]
+SymTable:
+	{v1=1, v2=2}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3}
+
+Program State(id):
+	id=0
+ExeStack:
+	[NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), new(v3,4)]
+SymTable:
+	{v1=1, v2=2}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3}
+
+Program State(id):
+	id=0
+ExeStack:
+	[NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[NewBarrier(cnt, rH(v2))
+forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), NewBarrier(cnt, rH(v2))]
+SymTable:
+	{v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), NewBarrier(cnt, rH(v2))]
+SymTable:
+	{v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}
+Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), forkStmt{Await(cnt)
+wH(v1,rH(v1)*10)}]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[Await(cnt)
+wH(v1,rH(v1)*10)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v1))
+forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[Await(cnt)
+wH(v1,rH(v1)*10)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), Print(rH(v1))]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), Print(rH(v1))]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}
+wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), forkStmt{Await(cnt)
+wH(v2,rH(v2)*10)}]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[Await(cnt)
+wH(v2,rH(v2)*10)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[wH(v2,rH(v2)*10)
+Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[Await(cnt)
+wH(v2,rH(v2)*10)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), wH(v2,rH(v2)*10)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v2))
+Await(cnt)
+Print(rH(v3)), wH(v2,rH(v2)*10)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=3, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v2))
+Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Await(cnt)
+Print(rH(v3)), Print(rH(v2))]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Await(cnt)
+Print(rH(v3)), Print(rH(v2))]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Await(cnt)
+Print(rH(v3))]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v3)), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v3)), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v3)), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v3)), Await(cnt)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[wH(v1,rH(v1)*10)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[wH(v2,rH(v2)*10)]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=2, 2=30, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v3))]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=20, 2=300, 3=4}
+
+Program State(id):
+	id=1
+ExeStack:
+	[]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=20, 2=300, 3=4}
+
+Program State(id):
+	id=2
+ExeStack:
+	[]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=20, 2=300, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(rH(v3))]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30]
+File Table:
+	
+Heap:
+	{1=20, 2=300, 3=4}
+
+Program State(id):
+	id=0
+ExeStack:
+	[]
+SymTable:
+	{cnt=1, v1=1, v2=2, v3=3}
+Out:
+	[2, 30, 4]
+File Table:
+	
+Heap:
+	{1=20, 2=300, 3=4}
+

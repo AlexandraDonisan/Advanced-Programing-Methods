@@ -1,0 +1,46 @@
+ExeStack:
+	[b=a+1; Print(b), a=2+3*5]
+SymTable:
+	{}
+Out:
+	[]
+Heap:
+	{}
+
+ExeStack:
+	[b=a+1; Print(b)]
+SymTable:
+	{a=17}
+Out:
+	[]
+Heap:
+	{}
+
+ExeStack:
+	[Print(b), b=a+1]
+SymTable:
+	{a=17}
+Out:
+	[]
+Heap:
+	{}
+
+ExeStack:
+	[Print(b)]
+SymTable:
+	{a=17, b=18}
+Out:
+	[]
+Heap:
+	{}
+
+ExeStack:
+	[]
+SymTable:
+	{a=17, b=18}
+Out:
+	[18]
+Heap:
+	{}
+
+

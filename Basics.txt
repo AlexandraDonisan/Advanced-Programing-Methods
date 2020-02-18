@@ -1,0 +1,254 @@
+INPUT SOME DATA(AN INTEGER)
+		 * Scanner input = new Scanner(System.in);
+		 * System.out.println("Enter smth: ");
+		 * String x = input.nextLine();
+		 * System.out.println("You entered "+x);
+
+
+INITIALIZE ARRAY
+		 * type[] name = new type[size];     int[] hw = new int[10];
+		 * dataType[] name = {dataValue1, dataValue2, dataValue3};        int[] studentGrades = {98, 86, 90};
+		
+ 
+METHOD THAT RETURNS AN ARRAY OF INTS
+		 * public static int[] myMethod(int[] a){}
+
+
+LENGTH OF AN ARRAY
+		 * myArray.length	
+
+
+WORK_WITH_STRINGS
+		"hel".equals("hello"); //false
+		"example".length(); //is 7
+		"world".isEmpty(); //false
+		"hello".charAt(2);// is "l"
+		"hello".lastIndexOf("l"); //is 3
+		"HELLO".toLowerCase();
+		"hello".toUpperCase();
+		"hello".replace('l', 'x'); //is hexxo
+		"example".indexOf("e"); // is 0
+		"example".indexOf("m");//is 3
+		String a = a.replaceAll("[\\[\\].,:;'!?() ]", "").toUpperCase();
+
+MATH LIBRARY
+	x = Math.pow(x, 2);
+	x = Math.abs(x);
+	x= Math.random();
+	x = Math.sqrt(x);
+	Math.max(2, 3);
+	Math.min(-1, 50);
+
+
+****** import java.util.Arrays;  *******
+https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html?is-external=true
+
+*METHOD				*EXAMPLE				*DESCRIPTION
+
+toString(array)	                Arrays.toString(a)	                returns a String representation of the array using square brackets and commas like so: [value, value, value]
+equals(array1, array2)	        Arrays.equal(a, b) OR a.equals(b)	returns true if the two arrays contain the same elements in the same order
+fill(array, value)	        Arrays.fill(a, 10)	                fills every index of the array with a copy of the given value
+copyOf(array, newLength)	Arrays.copyOf(a, 10)	                creates a new array object with the given length and fills it with values in the same order as the original array. If there are left over indexes those are filled with the data type's zero value
+sort(array)	                Arrays.sort(a)				arranges the values in the array in sorted order from smallest to largest
+binarySearch(array, value)	Arrays.binarySearch(a, 100)		returns the index of th given value in a sorted array. Will return a negative number if the value doesn't exist in the array.		 
+
+
+
+INITIALIZE 2D ARRAY
+	*type[][] name = new type[row][col];
+	*type[][] name = {{},{},{}};    int[][] a = {{1,2,3},{3,4,5},{6,7,8}};
+
+TRAVERSE 2D ARRAY
+	*int[][] a = new int[row][col];
+	 for(int row=0; row< a.length; row++)
+		for(int col=0; col<a[row].length; col++)
+
+
+DECLARING ARRAY LISTS
+	*ArrayList<DataType> name = new ArrayList<DataType>();
+	*CANNOT use "int","double","char","bool" as DataTypes
+	*instead we use a Wrapper Class
+		int => Integer		char => Character
+		double => Double	boolean => Boolean
+
+USEFUL ARRAY LIST METHODS
+methods	example	description
+
+set(index, value)	list.set(0, 'x')	replaces the current value at the given index with the given value
+get(index)		list.get(0)		returns the current value stored at the given index
+add(value)		list.add('x')		adds the given value to the end of the list
+add(value, index)	list.add('x', 1)	inserts the given value at the given index, shifting anything that was at that index or later towards the back of the list
+indexOf(value)		list.indexOf('x')	returns the first index of where the given value is found, will return -1 if the value is not in the list
+contains(value)		list.contains('x')	returns true if the given value is found somewhere in the list, false otherwise
+remove(index)		list.remove(0)		removes and returns the value at the given index, shifting all elements after the index towards the front of the list 
+size()			list.size()		returns the size of the array
+
+
+OBJECT DEFINITIONS
+public class Student{
+	Sring name;
+	int grade;
+	int id;
+	double GPA;
+	int abs;
+
+	public Student(String name, int grade, int id, double GPA, int abs)
+	{
+	this.name = name;
+        this.grad = grad;
+        this.ID = ID;
+        this.GPA = GPA;
+        this.abs = abs;
+    	}	
+	
+	public boolean isGraduating() {
+        return (GPA > 2.0 && abs < 10 && grad == 12);
+    }
+}
+
+Student st1 = new Student("Elle", 10,213,9.05,8);
+
+ObjectDataType variableName = new ObjectDataType();
+variableName.objectMethod();
+
+
+
+DEFINING FIELDS
+public class MyObject{
+	String field1 = "";
+	int field2 = 0;
+
+DEFINIG METHODS FOR AN OBJECT(without "static")
+	public returnType methodName(parameters) {
+   		 statements;
+	}
+
+	Example:
+	// returns a String with basic information about
+	// the bicycle
+	public String getInfo() {
+	    return brand + " " + model + " $" + price;
+	}
+
+	// marks the bicycle as sold and returns
+	// the asking price for the customer
+	public double makeFullPriceSale() {
+    		isSold = true;
+    		return listPrice;
+	}
+
+	double field3 = 0.0;
+	...
+	}
+	
+	Example:
+	public class Bicycle {
+    	    String brand = "";
+       	    String model = "";
+	    double listPrice = 0.0;
+	    int tireSize = 24;
+	    boolean isSold = false;
+	    double salePrice = 0.0;
+   	    ...
+	}
+Fields can be objects as well. For example, you could create a list of all the different accessories that come installed on the bike:
+
+ArrayList<String> accessoryList = new ArrayList<String>();
+These accessories might even be objects themselves, defined in Accessory.java; if so, the field would look like:
+
+ArrayList<Accessory> accessoryList = new ArrayList<Accessory>();
+
+
+CONSTRUCTOR
+	public ClassName (parameters) {
+	...
+	}
+
+OVERLOADING CONSTRUCTORS
+public class Bicycle {
+    String brand;
+    String model;
+    double price;
+    int tireSize;
+    boolean isSold;
+    double salePrice;
+
+    public Bicycle (String brand, String model, double price, boolean isSold, double salePrice) {
+        this.brand = brand;
+        this.model = model;
+        this.price = price;
+        this.isSold = isSold;
+        this.salePrice = salePrice;
+    }
+}
+
+// this uses the default values of 28 for the tireSize
+// false for isSold and set the salePrice to the listPrice
+public Bicycle(String brand, String model, double listPrice) {
+    this(brand, model, listPrice, 28, false, listPrice);
+}
+
+// this uses all default values for a new Bicycle
+public Bicycle() {
+    this("", "", 0.0, 28, false, 0.0);
+}
+
+	Example:
+	Bicycle specificBike = new Bicycle("Giant","OCR-1",899.99,28,false,599.99);
+	Bicycle genericBike = new Bicycle("Schwin","Cruiser",250.00);
+	Bicycle defaultBike = new Bicycle();
+
+ENCAPSULATION =>PRIVATE/PUBLIC
+
+
+INHERITANCE SYNTAX
+	*public class NAME extends SUPERCLASS{}
+	EXAMPLE:
+	*public class Teacher extends Staff{}
+
+	*The CONSTRUCTOR of the SUBCLASS has to call the constructor of
+	the SUPERCLASS, because that's where the fields are stored.
+	And if you wanna initialize your fields,
+	you gotta rely on your superclass.
+	But the way that you do that is simply the word SUPER.
+	
+
+public class B extends C{
+	public void method2(){
+		System.out.print("b 2 ");
+		super.method2();        //HERE USE SUPER TO ACCES THE method2() FROM C
+	}
+}
+
+public class C{
+	public void method1(){
+		System.out.print("c 1 ");
+	}
+	public void method2(){
+		System.out.print("c 2 ");
+	}
+
+
+IS A vs HAS A
+	^		class A__
+	|   is a	|*method|  A has a method
+			|_______|    
+
+THE SUPER KEYWORD
+			School member        //SUPER CLASS
+			/	    \
+		   Staff	     Student
+		   /	\	      /    \
+	    Teachers	 Admin	Freshman    Seniors	
+
+	*You can use the super keyword to call a super class's code from within the child class.
+	INHERITING CONSTRUCTORS
+		*automatically inheriting the default constructor
+		*public class Student {
+    			public Student(String name) {
+        			super(name);
+    			}
+		 }
+
+	
+

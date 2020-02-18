@@ -1,0 +1,54 @@
+ExeStack:
+	[IfStmt{exp=a, thenS=Print(2), elseS=Print(3)}; snd=v, Print(ArithExp{op=2, e1=2, e2=2})]
+SymTable:
+	{}
+Out:
+	[]
+FileTable:
+	{}
+
+ExeStack:
+	[IfStmt{exp=a, thenS=Print(2), elseS=Print(3)}; snd=v]
+SymTable:
+	{a=0}
+Out:
+	[]
+FileTable:
+	{}
+
+ExeStack:
+	[v, IfStmt{exp=a, thenS=Print(2), elseS=Print(3)}]
+SymTable:
+	{a=0}
+Out:
+	[]
+FileTable:
+	{}
+
+ExeStack:
+	[v, Print(3)]
+SymTable:
+	{a=0}
+Out:
+	[]
+FileTable:
+	{}
+
+ExeStack:
+	[v]
+SymTable:
+	{a=0, v=3}
+Out:
+	[]
+FileTable:
+	{}
+
+ExeStack:
+	[]
+SymTable:
+	{a=0, v=3}
+Out:
+	[3]
+FileTable:
+	{}
+

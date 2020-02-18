@@ -1,0 +1,42 @@
+ExeStack:
+	[ReadFile(var_f+2, "var_c"); Print(var_c); IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f), OpenFile(var_f,"test.txt")]
+SymTable:
+	{}
+Out:
+	[]
+
+ExeStack:
+	[ReadFile(var_f+2, "var_c"); Print(var_c); IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f)]
+SymTable:
+	{var_f=1}
+Out:
+	[]
+
+ExeStack:
+	[Print(var_c); IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f), ReadFile(var_f+2, "var_c")]
+SymTable:
+	{var_f=1}
+Out:
+	[]
+
+ExeStack:
+	[IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0); closeRFile(var_f), Print(var_c)]
+SymTable:
+	{var_f=1}
+Out:
+	[]
+
+ExeStack:
+	[closeRFile(var_f), IF var_c THEN ReadFile(var_f, "var_c"); Print(var_c) ELSE Print(0)]
+SymTable:
+	{var_f=1}
+Out:
+	[]
+
+ExeStack:
+	[]
+SymTable:
+	{var_f=1}
+Out:
+	[]
+

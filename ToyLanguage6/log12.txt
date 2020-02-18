@@ -1,0 +1,143 @@
+ExeStack:
+	[WHILE(v-4){ Print(v); v=v-1}; Print(v), v=6]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+ExeStack:
+	[WHILE(v-4){ Print(v); v=v-1}; Print(v)]
+SymTable:
+	{v=6}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+ExeStack:
+	[Print(v), WHILE(v-4){ Print(v); v=v-1}]
+SymTable:
+	{v=6}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+ExeStack:
+	[Print(v), WHILE(v-4){ Print(v); v=v-1}, Print(v); v=v-1]
+SymTable:
+	{v=6}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+ExeStack:
+	[Print(v), WHILE(v-4){ Print(v); v=v-1}, v=v-1, Print(v)]
+SymTable:
+	{v=6}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+ExeStack:
+	[Print(v), WHILE(v-4){ Print(v); v=v-1}, v=v-1]
+SymTable:
+	{v=6}
+Out:
+	[6]
+File Table:
+	
+Heap:
+	{}
+
+ExeStack:
+	[Print(v), WHILE(v-4){ Print(v); v=v-1}]
+SymTable:
+	{v=5}
+Out:
+	[6]
+File Table:
+	
+Heap:
+	{}
+
+ExeStack:
+	[Print(v), WHILE(v-4){ Print(v); v=v-1}, Print(v); v=v-1]
+SymTable:
+	{v=5}
+Out:
+	[6]
+File Table:
+	
+Heap:
+	{}
+
+ExeStack:
+	[Print(v), WHILE(v-4){ Print(v); v=v-1}, v=v-1, Print(v)]
+SymTable:
+	{v=5}
+Out:
+	[6]
+File Table:
+	
+Heap:
+	{}
+
+ExeStack:
+	[Print(v), WHILE(v-4){ Print(v); v=v-1}, v=v-1]
+SymTable:
+	{v=5}
+Out:
+	[6, 5]
+File Table:
+	
+Heap:
+	{}
+
+ExeStack:
+	[Print(v), WHILE(v-4){ Print(v); v=v-1}]
+SymTable:
+	{v=4}
+Out:
+	[6, 5]
+File Table:
+	
+Heap:
+	{}
+
+ExeStack:
+	[Print(v)]
+SymTable:
+	{v=4}
+Out:
+	[6, 5]
+File Table:
+	
+Heap:
+	{}
+
+ExeStack:
+	[]
+SymTable:
+	{v=4}
+Out:
+	[6, 5, 4]
+File Table:
+	
+Heap:
+	{}
+

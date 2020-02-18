@@ -1,0 +1,78 @@
+Program State(id):
+	id=0
+ExeStack:
+	[v=2; Print(v)]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v), v=2]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v), v=2]
+SymTable:
+	{}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v)]
+SymTable:
+	{v=2}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[Print(v)]
+SymTable:
+	{v=2}
+Out:
+	[]
+File Table:
+	
+Heap:
+	{}
+
+Program State(id):
+	id=0
+ExeStack:
+	[]
+SymTable:
+	{v=2}
+Out:
+	[2]
+File Table:
+	
+Heap:
+	{}
+
